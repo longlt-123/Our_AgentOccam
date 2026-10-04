@@ -90,7 +90,7 @@ cd D:\INT3011E\WebChoreArena\AgentOccam
 Install WebArena & AgentOccam requirements:
 
 ```powershell
-pip install numpy==1.26.4
+python -m pip install numpy==1.26.4
 cd D:\INT3011E\webarena
 python -m pip install -r requirements.txt
 cd D:\INT3011E\WebChoreArena\AgentOccam

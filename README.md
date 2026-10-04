@@ -87,7 +87,14 @@ cd D:\INT3011E\WebChoreArena\AgentOccam
 
 ## 4. Install Python dependencies
 
-Install the dependencies required by the repository.
+Install WebArena & AgentOccam requirements:
+
+```powershell
+cd D:\INT3011E\webarena
+python -m pip install -r requirements.txt
+cd D:\INT3011E\WebChoreArena\AgentOccam
+python -m pip install -r requirements.txt
+```
 
 The following packages were also required during this setup:
 
@@ -107,15 +114,6 @@ Verify Playwright:
 
 ```powershell
 python -m pip show playwright
-```
-
-Install WebArena & AgentOccam requirements:
-
-```powershell
-cd D:\INT3011E\webarena
-python -m pip install -r requirements.txt
-cd D:\INT3011E\WebChoreArena\AgentOccam
-python -m pip install -r requirements.txt
 ```
 
 ---

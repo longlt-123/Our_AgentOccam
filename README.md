@@ -90,6 +90,7 @@ cd D:\INT3011E\WebChoreArena\AgentOccam
 Install WebArena & AgentOccam requirements:
 
 ```powershell
+pip install numpy==1.26.4
 cd D:\INT3011E\webarena
 python -m pip install -r requirements.txt
 cd D:\INT3011E\WebChoreArena\AgentOccam
@@ -99,6 +100,7 @@ python -m pip install -r requirements.txt
 The following packages were also required during this setup:
 
 ```powershell
+python -m pip install --upgrade transformers
 python -m pip install --upgrade openai
 python -m pip install playwright
 python -m playwright install chromium

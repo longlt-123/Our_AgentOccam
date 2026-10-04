@@ -1,0 +1,30 @@
+STEP:
+10
+
+OBJECTIVE:
+Please provide the distribution of reviews for Philadelphia Strawberry Cheesecake Snacks (2 ct Pack, 3.25 oz Cups). Here, the review stars (1~5) correspond to a Rating that is 20 times their value (1 = Rating 20, 2 = Rating 40, 3 = Rating 60, 4 = Rating 80, 5 = Rating 100).
+Follow the format below, using numerical values:
+5: {number}, 4: {number}, 3: {number}, 2: {number}, 1: {number}
+
+PREVIOUS PLANS:
+[0] (Active Plan) Find the solution to "Please provide the distribution of reviews for Philadelphia Strawberry Cheesecake Snacks (2 ct Pack, 3.25 oz Cups). Here, the review stars (1~5) correspond to a Rating that is 20 times their value (1 = Rating 20, 2 = Rating 40, 3 = Rating 60, 4 = Rating 80, 5 = Rating 100).
+Follow the format below, using numerical values:
+5: {number}, 4: {number}, 3: {number}, 2: {number}, 1: {number}"
+
+OBSERVATION DESCRIPTION:
+Currently on Page 8 of Reviews. The pagination links show:
+link [19531] 'Page Previous'
+link [20023] 'Page 1'
+link [20024] 'Skip to page 2'
+link [20025] 'Page 4'
+link [20026] 'Page 5'
+link [20027] 'Page 6'
+link [20028] 'Page 7'
+text "You're currently reading page 8"
+
+REASON:
+Click link [20028] to go to Page 7 and record its reviews.
+
+ACTION:
+click [20028]
+

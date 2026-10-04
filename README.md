@@ -109,6 +109,15 @@ Verify Playwright:
 python -m pip show playwright
 ```
 
+Install WebArena & AgentOccam requirements:
+
+```powershell
+cd D:\INT3011E\webarena
+python -m pip install -r requirements.txt
+cd D:\INT3011E\WebChoreArena\AgentOccam
+python -m pip install -r requirements.txt
+```
+
 ---
 
 ## 5. Download and load the Shopping Docker image
